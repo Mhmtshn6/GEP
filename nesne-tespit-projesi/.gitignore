@@ -1,0 +1,19 @@
+# Python
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/app/models/*.pt
+
+# Node
+mobile/node_modules/
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/android/build/
+mobile/android/.gradle/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store

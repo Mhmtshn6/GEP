@@ -1,0 +1,15 @@
+# Sunucu ayarları
+HOST=0.0.0.0
+PORT=8000
+DEBUG=True
+
+# Model - yolov8s daha doğru
+MODEL_PATH=app/models/yolov8s.pt
+CONFIDENCE_THRESHOLD=0.50
+IOU_THRESHOLD=0.45
+
+# Görüntü ön işleme
+MAX_IMAGE_SIZE=640
+
+# CORS
+ALLOWED_ORIGINS=*
